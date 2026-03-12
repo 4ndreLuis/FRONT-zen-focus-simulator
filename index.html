@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZenFocus Simulator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <h1 id="instrucao">Prepare-se</h1>
+        <p>Ciclos Completados: <span id="contadorCiclos">0</span></p>
+      </header>
+
+      <div class="visual-area">
+        <div id="circuloZen" class="circle"></div>
+      </div>
+
+      <div class="controls">
+        <button id="btnIniciar" class="btn-main">Iniciar Prática</button>
+        <select id="selectModo">
+          <option value="relaxar">Modo Relaxar (8s)</option>
+          <option value="focar">Modo Focar (4s)</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>
