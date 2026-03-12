@@ -14,3 +14,5 @@ Este projeto foi um marco no meu aprendizado, onde foquei em:
 
 - TypeScript (Tipagem estrita e manipulação de DOM)
 - CSS3 (Transições suaves e variáveis)
+
+gitHubaPages: https://4ndreluis.github.io/FRONT-zen-focus-simulator/
